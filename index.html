@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050816">
+  <title>Hanafi Maulana — Creative Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise"></div><div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="logo" href="#home"><span class="logo-symbol">✦</span> Hanafi<span class="logo-dot">.</span></a>
+    <nav id="nav" class="nav">
+      <a href="#home" class="active">Beranda</a><a href="#about">Tentang</a><a href="#skills">Keahlian</a><a href="#projects">Portofolio</a><a href="#contact">Kontak</a>
+    </nav>
+    <div class="top-actions"><button id="themeToggle" class="icon-btn" aria-label="Ganti tema">☾</button><button id="menuToggle" class="icon-btn menu-btn" aria-label="Buka menu" aria-expanded="false">☰</button></div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <div class="pill"><span class="live-dot"></span> PORTOFOLIO PERSONAL · 2026</div>
+        <p class="intro">Halo, saya</p>
+        <h1>Hanafi <span class="gradient">Maulana</span><span class="cursor">_</span></h1>
+        <h2 class="role">Pelajar <span id="typedRole">| Web Developer</span></h2>
+        <p class="lead">Aku tertarik pada dunia teknologi, desain, dan ide-ide kreatif. Aku sedang belajar membangun sesuatu yang bukan cuma keren dilihat, tapi juga nyaman digunakan.</p>
+        <div class="hero-buttons"><a href="#projects" class="btn btn-primary">Lihat Portofolio <span>↗</span></a><a href="#contact" class="btn btn-outline">Hubungi Saya <span>✉</span></a></div>
+        <div class="socials"><a href="#contact" aria-label="GitHub">⌘</a><a href="#contact" aria-label="Instagram">◎</a><a href="#contact" aria-label="LinkedIn">in</a><a href="#contact" aria-label="YouTube">▶</a></div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="art-grid"></div><div class="planet planet-one"></div><div class="planet planet-two"></div>
+        <div class="portrait-frame"><div class="portrait-placeholder"><span class="portrait-star">✦</span><div class="avatar-head"><div class="hair"></div><div class="eye eye-left"></div><div class="eye eye-right"></div><div class="mouth"></div></div><div class="avatar-body"></div><div class="portrait-caption">KEEP<br>GROWING<span> ↗</span></div></div></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-card card-status"><span class="mini-icon">✧</span><div><small>STATUS SAAT INI</small><strong>Belajar & berkembang</strong></div><span class="green-dot"></span></div>
+        <div class="floating-card card-location"><span>⌖</span><div><small>BERBASIS DI</small><strong>Indonesia 🇮🇩</strong></div></div>
+        <div class="art-label">CREATIVE MINDSET / 001</div>
+      </div>
+      <a class="scroll-hint" href="#about"><span class="mouse"></span> GULIR UNTUK MENJELAJAH <b>↓</b></a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-tag"><span>01</span> KENAL LEBIH DEKAT</div>
+      <div class="section-title-row"><h2>Bukan cuma tentang<br><span class="muted">siapa aku, tapi siapa aku nanti.</span></h2><p>Setiap hal hebat dimulai dari rasa ingin tahu dan satu langkah kecil. Ini ceritaku yang masih terus berkembang.</p></div>
+      <div class="about-grid">
+        <article class="about-card about-main"><div class="card-orb"></div><span class="big-quote">“</span><h3>Selalu ada hal baru<br>untuk dipelajari.</h3><p>Aku percaya proses lebih penting daripada terlihat sempurna. Aku suka mengeksplorasi teknologi, mencoba hal baru, dan belajar dari setiap kesalahan.</p><span class="signature">Hanafi Maulana ✦</span></article>
+        <article class="mini-stat"><span class="stat-icon">⌘</span><strong>01</strong><h3>Terus belajar</h3><p>Mengembangkan kemampuan sedikit demi sedikit.</p></article>
+        <article class="mini-stat"><span class="stat-icon">✳</span><strong>02</strong><h3>Berani mencoba</h3><p>Menjadikan tantangan sebagai pengalaman.</p></article>
+        <article class="mini-stat"><span class="stat-icon">↗</span><strong>03</strong><h3>Berpikir kreatif</h3><p>Mencari solusi dari sudut pandang berbeda.</p></article>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-tag"><span>02</span> TOOLBOX SAYA</div>
+      <div class="section-title-row"><h2>Belajar hari ini,<br><span class="gradient">membangun esok hari.</span></h2><p>Kemampuan yang sedang aku pelajari dan kembangkan. Persentase ini hanya ilustrasi, bisa kamu sesuaikan sendiri.</p></div>
+      <div class="skill-layout"><div class="skill-list">
+        <div class="skill"><div class="skill-label"><span>🌐 HTML</span><b>90%</b></div><div class="track"><span style="--level:90%"></span></div></div>
+        <div class="skill"><div class="skill-label"><span>🎨 CSS</span><b>80%</b></div><div class="track"><span style="--level:80%"></span></div></div>
+        <div class="skill"><div class="skill-label"><span>⚡ JavaScript</span><b>65%</b></div><div class="track"><span style="--level:65%"></span></div></div>
+        <div class="skill"><div class="skill-label"><span>🧩 UI/UX Design</span><b>60%</b></div><div class="track"><span style="--level:60%"></span></div></div>
+      </div><div class="skill-quote"><span class="quote-star">✳</span><p>“Jangan takut menjadi pemula. Semua ahli pernah memulai dari nol.”</p><small>CATATAN UNTUK DIRI SENDIRI</small><div class="quote-lines"></div></div></div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-tag"><span>03</span> YANG SEDANG DIBANGUN</div>
+      <div class="section-title-row"><h2>Eksperimen kecil,<br><span class="muted">kemungkinan besar.</span></h2><p>Contoh proyek latihan yang bisa dikembangkan menjadi karya sungguhan.</p></div>
+      <div class="project-filters"><button class="filter active" data-filter="all">Semua</button><button class="filter" data-filter="web">Web</button><button class="filter" data-filter="design">UI/UX</button></div>
+      <div class="project-grid">
+        <article class="project-card" data-category="web"><div class="project-preview preview-one"><span class="preview-window"><i></i><i></i><i></i><b>hello-world.html</b></span><div class="preview-content"><span>PERSONAL SPACE</span><strong>My First<br>Website<span>.</span></strong><div class="preview-lines"></div></div></div><div class="project-info"><div><small>01 / WEB DEVELOPMENT</small><h3>Website Perkenalan</h3></div><button class="project-open" data-project="Website Perkenalan" aria-label="Detail Website Perkenalan">↗</button><p>Website personal dengan tampilan modern dan animasi interaktif.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article>
+        <article class="project-card" data-category="web"><div class="project-preview preview-two"><div class="todo-window"><span>✳ daily flow</span><strong>Today's focus</strong><div class="todo-row">✓ Belajar coding</div><div class="todo-row">○ Baca 10 halaman</div><div class="todo-row">○ Buat project</div></div></div><div class="project-info"><div><small>02 / WEB APP</small><h3>Daily Focus App</h3></div><button class="project-open" data-project="Daily Focus App" aria-label="Detail Daily Focus App">↗</button><p>Konsep aplikasi daftar tugas untuk menjaga fokus harian.</p><div class="tags"><span>JavaScript</span><span>UI Design</span></div></div></article>
+        <article class="project-card" data-category="design"><div class="project-preview preview-three"><div class="phone-mock"><div class="phone-top"></div><span>discover more</span><strong>Find your<br>next adventure.</strong><div class="phone-button"></div><div class="phone-photo"></div></div></div><div class="project-info"><div><small>03 / UI & UX</small><h3>Explore Mobile App</h3></div><button class="project-open" data-project="Explore Mobile App" aria-label="Detail Explore Mobile App">↗</button><p>Eksplorasi desain aplikasi mobile yang simpel dan intuitif.</p><div class="tags"><span>Figma</span><span>Prototype</span></div></div></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact"><div class="contact-panel"><div class="contact-copy"><div class="section-tag"><span>04</span> TERHUBUNG</div><h2>Ada ide?<br><span class="gradient">Mari wujudkan.</span></h2><p>Terima kasih sudah mampir. Kalau kamu ingin berkolaborasi atau sekadar menyapa, kirim pesan lewat formulir ini.</p><div class="contact-detail"><span>✉</span><div><small>EMAIL CONTOH</small><strong>hanafi@example.com</strong></div></div><div class="contact-detail"><span>⌖</span><div><small>LOKASI</small><strong>Indonesia</strong></div></div></div>
+      <form id="contactForm" class="contact-form"><label for="name">Nama kamu</label><input id="name" name="name" placeholder="Misalnya, Budi" required><label for="email">Email kamu</label><input id="email" name="email" type="email" placeholder="budi@email.com" required><label for="message">Pesan</label><textarea id="message" name="message" rows="4" placeholder="Tulis pesanmu di sini..." required></textarea><button class="btn btn-primary submit-btn" type="submit">Siapkan pesan <span>↗</span></button><p id="formFeedback" class="form-feedback" aria-live="polite">Formulir demo — pesan akan disiapkan di aplikasi email kamu.</p></form>
+    </div></section>
+  </main>
+  <footer class="footer"><a class="logo" href="#home"><span class="logo-symbol">✦</span> Hanafi<span class="logo-dot">.</span></a><p>Terus belajar. Terus berkembang. ✦</p><span>© <span id="year"></span> Hanafi Maulana</span><a href="#home" class="to-top">↑</a></footer>
+
+  <dialog id="projectDialog" class="project-dialog"><button id="closeDialog" class="close-dialog" aria-label="Tutup">✕</button><span class="section-tag">DETAIL PROYEK</span><h2 id="dialogTitle">Nama Proyek</h2><p>Ini adalah konsep proyek latihan. Kamu bisa mengganti deskripsi, menambahkan tautan demo, atau menghubungkannya dengan proyek aslimu.</p><button id="dialogOk" class="btn btn-primary">Mengerti ✓</button></dialog>
+</body>
+</html>
